@@ -92,6 +92,7 @@ namespace ConsoleApp12
                 // Actualizar las propiedades del automóvil
                 automovil.Marca = nuevaMarca;
                 automovil.Modelo = nuevoModelo;
+
                 automovil.Anio = nuevoAnio;
                 automovil.NumPuertas = nuenonumpuertas;
                 automovil.Color = nuevocolor;
@@ -100,6 +101,7 @@ namespace ConsoleApp12
             }
             else
             {
+                //Este es un comentario nievo
                 Console.WriteLine("No se encuentra el automóvil con la marca especificada.");
             }
         }
